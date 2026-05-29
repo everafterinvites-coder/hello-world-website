@@ -24,14 +24,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      -- name: Set up Node
+      - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # cache: 'npm'   <-- REMOVE OR DELETE THIS CACHE LINE Entirely
 
       - name: Install dependencies
-        run: npm install  # <-- CHANGE FROM 'npm ci' TO 'npm install'
+        run: npm install
 
       - name: Build project
         run: npm run build
