@@ -1,0 +1,6 @@
+{
+  "name": "Tailwind Component Sandbox",
+  "description": "An interactive workspace for exploring, customizing, and copying highly polished Tailwind CSS components and aesthetic layouts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
