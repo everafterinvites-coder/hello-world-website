@@ -6,7 +6,7 @@ import {
   RefreshCw, 
   Grid, 
   Layout, 
-  Sidebar as SidebarIcon, 
+  Columns as SidebarIcon, 
   Sparkles, 
   Info, 
   Terminal, 
